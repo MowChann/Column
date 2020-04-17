@@ -1,0 +1,9 @@
+# log
+*.log
+
+# secert
+_secret.*
+
+# temporary
+.temp/
+*.tmp
