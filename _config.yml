@@ -1,0 +1,23 @@
+title:              MowChan's Blog
+email:              mowchann@outlook.com
+description:        
+author:             MowChan
+baseurl:            "/"
+url:                "https://www.mowchan.me"
+
+# Social Profiles
+twitter_username:   
+github_username:    mowchann
+facebook_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-169011929-1 # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
