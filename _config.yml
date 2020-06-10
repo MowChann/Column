@@ -11,13 +11,18 @@ github_username:    mowchann
 facebook_username:  
 linkedin_username:
 
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-169011929-1 # out your google-analytics code
-
 # Build settings
 markdown:           kramdown
+timezone:           Asia/Shanghai
+
+
 paginate:           5
 paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+
+permalink: /:categories/:slug.html
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-169011929-1 # out your google-analytics code
