@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SQL 复杂语句"
-subtitle: "测试文章"
+subtitle: false
 date: 2020-06-01 17:57:00
 categories: [mysql]
 tags: [mysql, database]
