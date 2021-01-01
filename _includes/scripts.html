@@ -1,8 +1,21 @@
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <script src="{{"/assets/script/clean-blog.min.js" | relative_url }}"></script>
-
 <script src="{{"/assets/script/scripts.js" | relative_url }}"></script>
+{% if page.latex %}
+<script src="https://cdn.mowchan.me/libs/katex/katex.min.js"></script>
+<script src="https://cdn.mowchan.me/libs/katex/auto-render.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  renderMathInElement(document.body, {
+    delimiters: [
+      {left: "$$", right: "$$", display: true},
+      {left: "$", right: "$", display: false}
+    ]
+  });
+});
+</script>
+{% endif %}
 
 {% if page.url contains 'contact' %}
   <!-- Form Validation -->

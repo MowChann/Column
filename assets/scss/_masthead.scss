@@ -29,7 +29,7 @@ header.masthead {
   .site-heading {
     text-align: center;
     h1 {
-      font-size: 50px;
+      font-size: 32px;
       margin-top: 0;
     }
     .subheading {
@@ -42,13 +42,13 @@ header.masthead {
     }
     @media only screen and (min-width: 768px) {
       h1 {
-        font-size: 80px;
+        font-size: 32px;
       }
     }
   }
   .post-heading {
     h1 {
-      font-size: 35px;
+      font-size: 32px;
     }
     .meta,
     .subheading {
@@ -62,7 +62,7 @@ header.masthead {
       @include sans-serif-font;
     }
     .meta {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 300;
       font-style: italic;
       @include serif-font;
@@ -72,10 +72,10 @@ header.masthead {
     }
     @media only screen and (min-width: 768px) {
       h1 {
-        font-size: 55px;
+        font-size: 32px;
       }
       .subheading {
-        font-size: 30px;
+        font-size: 24px;
       }
     }
   }
