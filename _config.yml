@@ -15,12 +15,15 @@ linkedin_username:
 markdown:           kramdown
 timezone:           Asia/Shanghai
 
+kramdown:
+  math_engine: katex
 
 paginate:           5
 paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-katex
 
 permalink: /:categories/:slug.html
 

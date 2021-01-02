@@ -181,10 +181,10 @@ macros: {
 
 ### 示例效果
 
-点$P(x,y)$到原点距离为$|OP|=\sqrt{x^2+y^2}$
+点$P(x,y)$到原点距离为$\vert OP\vert=\sqrt{x^2+y^2}$
 
 ```latex
-点$P(x,y)$到原点距离为$|OP|=\sqrt{x^2+y^2}$
+点$P(x,y)$到原点距离为$\vert OP\vert =\sqrt{x^2+y^2}$
 ```
 
 对于一般的圆$x^2+y^2+Dx+Ey+F=0$，其圆心坐标为$\left(-\cfrac{D}{2},-\cfrac{E}{2}\right)$，半径为$\cfrac{\sqrt{D^2+E^2-4F}}{2}$
