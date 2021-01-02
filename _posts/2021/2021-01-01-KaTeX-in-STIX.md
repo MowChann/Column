@@ -194,20 +194,6 @@ macros: {
 ```
 
 $$
-\katex
-$$
-
-```latex
-\katex
-```
-$$
-\latex
-$$
-
-```latex
-\latex
-```
-$$
 e^{\pi i} + 1 = 0
 $$
 

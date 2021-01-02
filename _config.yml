@@ -23,7 +23,6 @@ paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-katex
 
 permalink: /:categories/:slug.html
 

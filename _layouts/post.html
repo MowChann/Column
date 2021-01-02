@@ -22,6 +22,11 @@ layout: default
               on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
               content=page.content %}
             </span>
+            {% if page.incomplete %}
+            <span class="meta">
+              本文还未完成，近期可能还要修改或更新
+            </span>
+            {% endif %}
           </div>
         </div>
       </div>
