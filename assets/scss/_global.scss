@@ -1,12 +1,12 @@
 // Global styling for this template
 body {
+  font-family: 'Noto Sans SC','Source Han Sans','PingFang SC','Microsoft Yahei', sans-serif;
   font-size: 16px;
   color: $gray-900;
-  @include serif-font;
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.6;
   margin: 24px 0;
   a {
     text-decoration: underline;
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 800;
+  font-weight: 500;
   @include sans-serif-font;
 }
 

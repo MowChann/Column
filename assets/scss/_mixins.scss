@@ -61,8 +61,8 @@
   background-size: cover;
 }
 @mixin serif-font() {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Times New Roman','Source Han Serif SC',serif;
 }
 @mixin sans-serif-font() {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans SC','Source Han Sans','PingFang SC','Microsoft Yahei',sans-serif;
 }

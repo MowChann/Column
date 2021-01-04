@@ -17,9 +17,13 @@
       margin: 0 0 10px;
     }
   }
+  > code {
+    color: #0c539f;
+    font-size: 100%;
+    margin: 0 0.2em;
+  }
   > .post-meta {
     font-size: 18px;
-    font-style: italic;
     margin-top: 0;
     color: $gray-600;
     > a {
@@ -33,10 +37,5 @@
     }
   }
   @media only screen and (min-width: 768px) {
-    > a {
-      > .post-title {
-        font-size: 36px;
-      }
-    }
   }
 }
