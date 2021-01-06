@@ -4,15 +4,25 @@ pre {
   padding: 0.75em;
   border-radius: 4px;
 }
+code {
+  font-size: 95%;
+  color: #0085a1;
+  margin: 0 0.2em;
+  word-break: break-word;
+}
 .container {
+  h1, h2, h3, h4, h5 {
+    padding-top: 0.5em;
+  }
   h1 {
     font-size: 2em;
+    text-align: center;
   }
   h2 {
-    font-size: 1.75em;
+    font-size: 1.7em;
   }
   h3 {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
   h4 {
     font-size: 1.25em;
@@ -20,6 +30,7 @@ pre {
   h5 {
     font-size: 1.1em;
   }
+
 }
 .post-preview {
   > a {
@@ -38,11 +49,6 @@ pre {
       font-weight: 300;
       margin: 0 0 10px;
     }
-  }
-  > code {
-    color: #0c539f;
-    font-size: 100%;
-    margin: 0 0.2em;
   }
   > .post-meta {
     font-size: 18px;
