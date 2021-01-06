@@ -22,8 +22,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: true
-      start_line: 1
+      line_numbers: false
 
 paginate:           5
 paginate_path:      "/posts/page:num/"
@@ -31,7 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-permalink: /:categories/:slug.html
+permalink: /post/:year/:slug.html
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-169011929-1 # out your google-analytics code
