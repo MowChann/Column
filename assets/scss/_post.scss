@@ -1,4 +1,26 @@
 // Styling for the post page
+pre {
+  border: 1px solid #ccc;
+  padding: 0.75em;
+  border-radius: 4px;
+}
+.container {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.75em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-size: 1.25em;
+  }
+  h5 {
+    font-size: 1.1em;
+  }
+}
 .post-preview {
   > a {
     color: $gray-900;

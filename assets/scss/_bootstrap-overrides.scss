@@ -1,10 +1,8 @@
-// Bootstrap overrides for this template
 .btn {
   font-size: 14px;
-  font-weight: 800;
-  padding: 15px 25px;
+  font-weight: 500;
+  padding: 8px 12px;
   letter-spacing: 1px;
-  text-transform: uppercase;
   border-radius: 0;
   @include sans-serif-font;
 }
@@ -23,5 +21,5 @@
 
 .btn-lg {
   font-size: 16px;
-  padding: 25px 35px;
+  padding: 10px 15px;
 }
