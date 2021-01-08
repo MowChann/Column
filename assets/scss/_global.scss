@@ -1,4 +1,3 @@
-// Global styling for this template
 body {
   font-family: 'Noto Sans SC','Source Han Sans','PingFang SC','Microsoft Yahei', sans-serif;
   font-size: 16px;
@@ -8,7 +7,7 @@ body {
 p {
   line-height: 1.75;
   margin: 0.4em 0;
-  word-break: break-all;
+  overflow-wrap: break-word;
   a {
     text-decoration: underline;
   }
@@ -40,6 +39,7 @@ blockquote {
 
 .katex {
   font-size: 1.1em !important;
+  white-space: normal;
 }
 
 .section-heading {
@@ -79,4 +79,21 @@ img::selection {
 img::-moz-selection {
   color: $white;
   background: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: #535353;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background: #ededed;
 }
