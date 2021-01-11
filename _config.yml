@@ -3,6 +3,7 @@ email:              mowchann@outlook.com
 description:        
 author:             MowChan
 baseurl:            "/"
+cdn_url:  "https://cdn.mowchan.me/image/column/"
 url:                "https://www.mowchan.me"
 
 # Social Profiles
@@ -10,6 +11,8 @@ twitter_username:
 github_username:    mowchann
 facebook_username:  
 linkedin_username:
+
+background_image: false
 
 # Build settings
 markdown:           kramdown

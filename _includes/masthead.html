@@ -1,0 +1,2 @@
+{% if page.background %}<header class="masthead" style="background-image: url('{{ page.background | prepend: site.cdn_url | replace: '//', '/' }}')">{% else %}<header class="masthead"{% if site.background_image %} style="background-image: url('{{ page.background | prepend: site.cdn_url | replace: '//', '/' }}')"{% endif %}>{% endif %}
+    <div class="overlay"></div>
