@@ -24,37 +24,15 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-
         {{ content }}
-
-        {% for post in site.posts limit : 5 %}
-
-        <article class="post-preview">
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% endif %}
-            <p class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 10 }}</p>
-          </a>
-          <p class="post-meta">作者：
-            {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-             &middot; 
-            日期：
-            {{ post.date | date: '%Y-%m-%d' }} &middot; {% include read_time.html content=post.content %}            
-          </p>
+        {% for post in site.posts limit : 6 %}
+        <article class="post-preview">{% include meta.html post=post %}
         </article>
-
         <hr>
-
         {% endfor %}
 
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{"/archive" | relative_url }}">浏览所有文章 &rarr;</a>
         </div>
 
       </div>
