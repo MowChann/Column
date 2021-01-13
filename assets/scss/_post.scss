@@ -22,10 +22,10 @@ code {
   h1 {
     font-size: 2em;
     text-align: center;
-    padding: 0.5em 0;
   }
   h2 {
     font-size: 1.7em;
+    text-align: center;
   }
   h3 {
     font-size: 1.4em;
@@ -36,9 +36,26 @@ code {
   h5 {
     font-size: 1.1em;
   }
+  .post-meta {
+    text-align: center;
+    font-size: 0.9em;
+    color: $gray-600;
+    padding: 0.4em 0;
+    > a {
+      text-decoration: none;
+      color: $gray-900;
+      &:focus, &:hover {
+        text-decoration: underline;
+        color: $primary;
+      }
+    }
+  }
 }
 
 .post-preview {
+  h1, h2 {
+    text-align: left;
+  }
   > a {
     color: $gray-900;
     &:focus, &:hover {
@@ -57,6 +74,7 @@ code {
     }
   }
   > .post-meta {
+    text-align: left;
     font-size: 15px;
     margin-top: 0;
     color: $gray-600;

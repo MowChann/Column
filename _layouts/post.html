@@ -6,9 +6,9 @@ layout: default
     <div class="row">
       <div class="col-xl-10 col-lg-11 col-md-11 mx-auto">
         <h1>{{ page.title }}</h1>{% if page.subtitle %}
-        <h2 class="subheading">{{ page.subtitle }}</h2>{% endif %}{% if page.incomplete %}
-        {% include meta.html post=page %}
-        <span class="meta">本文还未完成，近期可能还要修改或更新</span>{% endif %}
+        <h2 class="subheading">{{ page.subtitle }}</h2>{% endif %}
+        {% include meta.html post=page %}{% if page.incomplete %}
+        <p class="post-meta">本文还未完成，近期可能还要修改或更新</p>{% endif %}
         {{ content }}
         <hr>
         <div class="clearfix">
