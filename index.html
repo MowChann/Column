@@ -2,7 +2,7 @@
 layout: default
 background: "/background/homepage.png"
 ---
-  <header class="masthead"{% if page.background %} style="background-image: url('{{ page.background | prepend: site.cdn_url | replace: '//', '/' }}')"{% endif %}>
+  <header class="masthead"{% if page.background %} style="background-image: url('{{ page.background | prepend: site.cdn_url }}')"{% endif %}>
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
