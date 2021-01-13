@@ -4,10 +4,9 @@ title: "下载 YouTube 视频片段"
 subtitle: "使用 youtube-dl 配合 FFmpeg 修正下载中可能出现的错误"
 date: 2020-01-03 11:29:00
 categories: note
+author: MowChan
 tags: [youtube, youtube-dl, ffmpeg]
 ---
-
-# 下载YouTube视频片段
 
 ### 需求
 
@@ -103,6 +102,3 @@ WARNING: Unable to extract video title
 ```
 
 这时候打开`mix.mp4`文件，即可看到精确剪裁后合并的文件。
-
-
-

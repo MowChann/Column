@@ -1,7 +1,7 @@
 ---
 layout: post
 title: KaTeX 的 STIX 字体解决方案
-subtitle: 可能是最完美的博客上显示数学公式的方案
+subtitle: 可能是博客上显示数学公式最完美的方案
 date: 2021-01-01 20:00:00
 categories: [前端]
 author: MowChan
@@ -9,8 +9,6 @@ latex: true
 tags: [前端, 数学公式, LaTeX, KaTeX]
 incomplete: true
 ---
-
-# KaTeX 的 STIX 字体解决方案
 
 目前来说，在网页上显示数学公式最常用的方案是引入 JavaScript 对 LaTeX 代码同步渲染，使用最多的库是 MathJax 和 KaTeX。
 
@@ -235,11 +233,12 @@ $$
 ```latex
 \oint_{\Gamma}Pdx+Qdy+Rdz = \iint_{\Sigma}\begin{vmatrix} \cos \alpha & \cos \beta & \cos \gamma \\ \cfrac{\partial}{\partial x} & \cfrac{\partial}{\partial y} & \cfrac{\partial}{\partial z} \\ P & Q & R \end{vmatrix}dS
 ```
+
 ### 参考来源
 
-https://katex.org/docs/font.html
+<https://katex.org/docs/font.html>
 
-https://katex.org/docs/supported.html
+<https://katex.org/docs/supported.html>
 
-https://math.stackexchange.com/questions/247719/meaning-of-geqslant-leqslant-eqslantgtr-eqslantless/247745
+<https://math.stackexchange.com/questions/247719/meaning-of-geqslant-leqslant-eqslantgtr-eqslantless/247745>
 

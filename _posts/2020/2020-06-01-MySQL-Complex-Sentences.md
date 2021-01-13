@@ -7,8 +7,6 @@ categories: [mysql]
 tags: [mysql, database]
 ---
 
-# SQL 复杂语句
-
 ### 数据分组并按字段分列查询
 
 如何查询数据并根据两个字段分行分列统计数目，类似于 Excel 的数据透视表。例如，下面的表格`card_record`中，以`fund_id`为行，`card_id`为列，统计每个用户获得的各类卡片分别有多少张（条）。
@@ -134,4 +132,4 @@ SET SESSION group_concat_max_len = 10000;
 
 ### 参考链接
 
-- <https://www.jb51.net/article/167403.htm>
+<https://www.jb51.net/article/167403.htm>

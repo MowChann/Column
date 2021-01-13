@@ -3,12 +3,10 @@ layout: post
 title: "构造“点表示法”的 YAML 读取修改模块"
 subtitle: "为实现“点表示法”对常用的模块以及读写 YAML 文件的方法进行了对比"
 date: 2020-07-01 22:37:00
+author: MowChan
 categories: [python, note]
 tags: [python, yaml, ruamel.yaml]
 ---
-
-
-# 构造“点表示法”的 YAML 读取修改模块
 
 ### 问题背景
 
@@ -86,19 +84,17 @@ print(r.taoba.__cs)
 所以该方案行不通。
 
 
-
 ### 结论
 
 经过讨论，鉴于目前技术上的局限性，还是采用字符串式的点表示，逻辑简单，代码实现容易。
 
 
-
 ### 参考内容
 
-https://github.com/cdgriffith/Box
+<https://github.com/cdgriffith/Box>
 
-https://github.com/mewwts/addict
+<https://github.com/mewwts/addict>
 
-https://www.cnblogs.com/alamZ/p/7054602.html
+<https://www.cnblogs.com/alamZ/p/7054602.html>
 
-https://kb.kutu66.com/others/post_12714149
+<https://kb.kutu66.com/others/post_12714149>
