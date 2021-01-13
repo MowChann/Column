@@ -1,34 +1,13 @@
 ---
 layout: default
 ---
-    {% include masthead.html %}
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 col-lg-9 col-md-10 mx-auto">
-          <div class="post-heading">
-            <h1>{{ page.title }}</h1>
-            {% if page.subtitle %}
-            <h2 class="subheading">{{ page.subtitle }}</h2>
-            {% endif %}
-            <span class="meta">Posted by
-              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
-              content=page.content %}
-            </span>
-            {% if page.incomplete %}
-            <span class="meta">
-              本文还未完成，近期可能还要修改或更新
-            </span>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
+  {% include masthead.html %}
   <div class="container">
     <div class="row">
       <div class="col-xl-10 col-lg-11 col-md-11 mx-auto">
+        <h1>{{ page.title }}</h1>{% if page.subtitle %}
+        <h2 class="subheading">{{ page.subtitle }}</h2>{% endif %}{% if page.incomplete %}
+        <span class="meta">本文还未完成，近期可能还要修改或更新</span>{% endif %}
         {{ content }}
         <hr>
         <div class="clearfix">

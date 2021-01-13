@@ -59,6 +59,9 @@
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
+    &.is-dark {
+      
+    }
     &.is-fixed {
       /* when the user scrolls down, we hide the header right above the viewport */
       position: fixed;
@@ -68,6 +71,7 @@
       transition: transform 0.2s;
       border-bottom: 1px solid darken($white, .05);
       background-color: fade-out($white, .1);
+      box-shadow: 2px 2px 15px 5px #00000024;
       .navbar-brand {
         color: $gray-900;
         &:focus,
