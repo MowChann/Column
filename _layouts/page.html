@@ -1,23 +1,7 @@
 ---
 layout: default
 ---
-{% if page.masthead %}
-  <header class="masthead"{% if page.background %} style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')"{% endif %}>
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 col-lg-9 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>{{ page.title }}</h1>
-            {% if page.description %}<span class="subheading">{{ page.description }}</span>{% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>{% else %}
-  <header class="fillhead">
-    <div><br><br><br></div>
-  </header>{% endif %}
+  {% include masthead.html %}
   <div class="container">
     <div class="row">
       <div class="col-xl-10 col-lg-11 col-md-11 mx-auto">

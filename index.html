@@ -1,13 +1,14 @@
 ---
 layout: default
+background: "/background/homepage.png"
 ---
-  <header>
+  <header class="masthead"{% if page.background %} style="background-image: url('{{ page.background | prepend: site.cdn_url | replace: '//', '/' }}')"{% endif %}>
+    <div class="overlay"></div>
     <div class="container">
       <div class="row">
       <div class="col-xl-10 col-lg-11 col-md-11 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.title }}</h1>{% if site.description %}
-            <span class="subheading">{{ site.description }}</span>{% endif %}
+            <h1></h1>
           </div>
         </div>
       </div>

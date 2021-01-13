@@ -1,23 +1,25 @@
-title:              MowChan技术专栏
+# 基础信息
+title:              技术专栏
 email:              mowchann@outlook.com
 description:        
 author:             MowChan
-baseurl:            "/"
-cdn_url:  "https://cdn.mowchan.me/image/column/"
 url:                "https://www.mowchan.me"
+baseurl:            "/"
+cdn_url:            "https://cdn.mowchan.me/image/column/"
 
-# Social Profiles
-twitter_username:   
-github_username:    mowchann
-facebook_username:  
-linkedin_username:
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
 
-background_image: false
-
-# Build settings
+# 设置
 markdown:           kramdown
 timezone:           Asia/Shanghai
+permalink:          "/post/:year/:slug.html"
+paginate:           10
+paginate_path:      "/archive/:num/"
 
+# Markdown 格式配置
 kramdown:
   math_engine: katex
   syntax_highlighter: rouge
@@ -27,13 +29,11 @@ kramdown:
     block:
       line_numbers: false
 
-paginate:           10
-paginate_path:      "/archive/:num/"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
+# 网站数据统计
+google_analytics:   UA-169011929-1
 
-permalink: /post/:year/:slug.html
-
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-169011929-1 # out your google-analytics code
+# 社交账号
+twitter_username:   
+github_username:    mowchann
+facebook_username:  
+linkedin_username:
