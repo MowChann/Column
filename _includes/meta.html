@@ -2,7 +2,7 @@
           <p class="post-meta">
             <span>本文作者：{% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} &middot; </span>
             <span>发布日期：{{ post.date | date: '%Y/%m/%d' }} &middot; </span>
-            <span>阅读时长：{% assign words = post.content | number_of_words %}{% if words < 270 %}1 分钟 {% else %}{{ words | divided_by: 135 }} 分钟 {% endif %}</span>
+            <span>阅读时长：{% assign words = post.content | number_of_words %}{% if words < 270 %}1 分钟 {% else %}{{ words | divided_by: 108 }} 分钟 {% endif %}</span>
           </p>{% else %}
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
             <h2 class="post-title">{{ post.title }}</h2>{% if post.subtitle %}
@@ -12,5 +12,5 @@
           <p class="post-meta">
             <span>本文作者：{% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} &middot; </span>
             <span>发布日期：{{ post.date | date: '%Y/%m/%d' }} &middot; </span>
-            <span>阅读时长：{% assign words = post.content | number_of_words %}{% if words < 270 %}1 分钟 {% else %}{{ words | divided_by: 135 }} 分钟 {% endif %}</span>
+            <span>阅读时长：{% assign words = post.content | number_of_words %}{% if words < 270 %}1 分钟 {% else %}{{ words | divided_by: 108 }} 分钟 {% endif %}</span>
           </p>{% endif %}
