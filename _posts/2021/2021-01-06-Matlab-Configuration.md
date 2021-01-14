@@ -15,7 +15,7 @@ tags: [MatLab, 混合字体]
 
 打开设置面板 HOME->Preferences->MATLAB->Fonts，设置 Desktop code font 为含中文的字体即可。如果使用混合字体（含中文的编程字体），需要注意在 Windows 安装该字体时选择“为所有用户安装”，否则是无法在 MATLAB 中找到该字体的。
 
-https://www.jianshu.com/p/ffb9eddb8f21
+<https://www.jianshu.com/p/ffb9eddb8f21>
 
 
 
