@@ -28,6 +28,7 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: false
+  smartypants: false
 
 # 网站数据统计
 google_analytics:   UA-169011929-1
