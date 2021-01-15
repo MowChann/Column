@@ -17,6 +17,20 @@
       ]
     });
   });
+  </script>{% endif %}{% if page.datatables %}
+  <script src="https://cdn.bootcdn.net/ajax/libs/datatables/1.9.4/jquery.dataTables.min.js"></script>
+  <script>
+  $(function(){
+    $('.container table').DataTable({
+      "bAutoWidth": true,
+      "bFilter": true,
+      "bInfo": false,
+      "bPaginate": false,
+      "bSort": true,
+      "bStateSave": true,
+      "oLanguage": {"sSearch": "搜索表格"}
+    });
+  });
   </script>{% endif %}
   {% if site.google_analytics %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>

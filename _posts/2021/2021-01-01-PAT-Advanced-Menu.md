@@ -6,6 +6,7 @@ date: 2021-01-01 20:00:00
 categories: PAT
 author: MowChan
 incomplete: true
+datatables: true
 tags: [PAT, OJ, 甲级]
 ---
 
@@ -73,7 +74,7 @@ tags: [PAT, OJ, 甲级]
 | 1058 | [A+B in Hogwarts](https://pintia.cn/problem-sets/994805342720868352/problems/994805416519647232) |  20  |  0.42  |      |      |                                               |                   |                                                              |
 | 1059 | [Prime Factors](https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488) |  25  |  0.33  |      |      |                                               |                   |                                                              |
 | 1060 | [Are They Equal](https://pintia.cn/problem-sets/994805342720868352/problems/994805413520719872) |  25  |  0.21  |      |      |                                               |                   |                                                              |
-| 1061 | [Dating](https://pintia.cn/problem-sets/994805342720868352/problems/994805411985604608) |  20  |  0.23  |      |      |                                               |      字符串       | [B1014 福尔摩斯的约会](https://pintia.cn/problem-sets/994805260223102976/problems/994805308755394560) |
+| 1061 | [Dating](https://pintia.cn/problem-sets/994805342720868352/problems/994805411985604608) |  20  |  0.23  |      |      |                                               |      字符串       | [B1014](https://pintia.cn/problem-sets/994805260223102976/problems/994805308755394560) |
 | 1062 | [Talent and Virtue](https://pintia.cn/problem-sets/994805342720868352/problems/994805410555346944) |  25  |  0.35  |      |      |                                               |                   |                                                              |
 | 1063 | [Set Similarity](https://pintia.cn/problem-sets/994805342720868352/problems/994805409175420928) |  25  |  0.39  |      |      |                                               |                   |                                                              |
 | 1064 | [Complete Binary Search Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805407749357568) |  30  |  0.58  |      |      |                                               |                   |                                                              |
