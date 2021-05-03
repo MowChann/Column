@@ -8,7 +8,8 @@ layout: default
         <h1>{{ page.title }}</h1>{% if page.subtitle %}
         <h2 class="subheading">{{ page.subtitle }}</h2>{% endif %}
         {% include meta.html post=page %}{% if page.incomplete %}
-        <p class="post-meta">本文还未完成，近期可能还要修改或更新</p>{% endif %}
+        <p class="post-meta">本文还未完成，近期可能还要修改或更新</p>{% endif %}{% if page.nightly %}
+        <p class="post-meta">本文通过快速通道发布，请注意可能存在的错误<a href="{{"/post/2021/what-is-the-nightly-post.html" | relative_url }}">[?]</a></p>{% endif %}
         {{ content }}
         <hr>
         <div class="clearfix">
