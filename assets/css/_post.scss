@@ -10,11 +10,6 @@ code {
   word-break: break-word;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 80%;
-}
 
 .serif {
   font-family: 'Noto Serif SC';
@@ -53,6 +48,14 @@ img {
   ol {
     padding-left: 1em;
   }
+  ul {
+    padding-inline-start: 1.5em;
+  }
+  img {
+      display: block;
+      margin: 0 auto;
+      max-width: 80%;
+  }
   .post-meta {
     text-align: center;
     font-size: 0.9em;
@@ -66,6 +69,10 @@ img {
         color: $primary;
       }
     }
+  }
+  .katex-display {
+    overflow-x: auto;
+    overflow-y: clip;
   }
 }
 
