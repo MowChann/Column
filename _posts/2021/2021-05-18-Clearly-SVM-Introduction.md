@@ -8,6 +8,7 @@ tags: [SVM, 支持向量机, 机器学习]
 latex: true
 nightly: true
 incomplete: true
+font: serif
 ---
 
 ### 1. 什么是SVM
