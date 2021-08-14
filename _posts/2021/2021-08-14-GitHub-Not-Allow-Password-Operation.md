@@ -61,8 +61,8 @@ $ git config user.email 'your_email'
 
 ```yaml
 [user]
-	name = your_username
-	email = your_email
+    name = your_username
+    email = your_email
 ```
 
 
@@ -82,16 +82,16 @@ $ git config user.password 'your_token'
 
 ```yaml
 [user]
-	name = your_username
-	email = your_email
-	password = your_token
+    name = your_username
+    email = your_email
+    password = your_token
 ```
 
 即可以该账户操作。
 
 ### 参考来源
 
-- [Token authentication requirements for Git operations | The GitHub Blog](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
+- [Token authentication requirements for Git operations \| The GitHub Blog](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
 - [Creating a personal access token - GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 - [同一个电脑配置两个github账号_weixin_30883271的博客-CSDN博客](https://blog.csdn.net/weixin_30883271/article/details/96297742)
 
